@@ -1,5 +1,3 @@
-#Andria Laras Ramadhania (2217051016)
-
 def ubah():
     system('cls')
     def rubah():
