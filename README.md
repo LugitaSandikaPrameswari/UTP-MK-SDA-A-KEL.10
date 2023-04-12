@@ -1,7 +1,8 @@
 PROJECT UTP 
 
-\nMata Kuliah     : Struktur Data & Algoritma
-\nNama Program    : PROGRAM PENGOLAHAN DATA NILAI UN SISWA SMP N 1 BOJONGGEDE
+Mata Kuliah     : Struktur Data & Algoritma
+
+Nama Program    : PROGRAM PENGOLAHAN DATA NILAI UN SISWA SMP N 1 BOJONGGEDE
 
 Disusun Oleh    :
 1.  Annisa Citra Pratiwi        2217051008 
