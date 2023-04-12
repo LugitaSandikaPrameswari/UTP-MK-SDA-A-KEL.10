@@ -1,11 +1,4 @@
-#PROJECT UTP MK SDA RESPONSI
-
-#DISUSUN OLEH:
-#   Annisa Citra Pratiwi        2217051008
-#   Andria Laras Ramadhania     2217051016
-#   Lugita Sandika Prameswari   2217051119
-
-# PROGRAM PENGOLAHAN DATA NILAI UN SISWA SMP N 1 BOJONGGEDE
+# PROGRAM PENGOLAHAN DATA NILAI UN SISWA 
 
 from os import stat, system
 
@@ -121,11 +114,11 @@ def ubah():
                 lihat = input ('\nTekan [enter] untuk melihat data ')
                 tampil()
             else :
-              kembali = input("\nData tidak ada / Input Data terlebih dahulu [enter] ") 
+              kembali = input("\nData tidak ditemukan/Data tidak ada [enter] ") 
               menu()
 
         except (IndexError,ValueError):
-            kembali = input("\nData tidak ada / Input Data terlebih dahulu [enter] ") 
+            kembali = input("\nInputan Tidak Sesuai / Belum Input Data! [enter] ") 
             menu()
     rubah()
 
@@ -155,11 +148,11 @@ def hapus():
                 menu()
 
             else:
-              kembali = input("\nData tidak ada / Input Data terlebih dahulu [enter]") 
+              kembali = input("\nData tidak ditemukan/Data tidak ada [enter] ") 
               menu()
 
-        except (IndexError,ValueError):
-            kembali = input("Data tidak ditemukan/Data tidak ada [enter]") 
+        except (IndexError,ValueError,UnboundLocalError):
+            kembali = input("\nInputan Tidak Sesuai / Belum Input Data! [enter] ") 
             hapus()
 
     hapuss()
